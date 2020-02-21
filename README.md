@@ -1,14 +1,11 @@
-# Cutout Collage Layout with CSS Grid and Clip-path
-Demo for the tutorial of how to code a design with a cutout image look using CSS Grid and clip-path. 
+# Shards Experiment
+An alternative implementation of the cutout collage layout from [Briana Camp](https://bricampgomez.com/).
 
-![Cutout Collage Layout](https://tympanus.net/codrops/wp-content/uploads/2020/02/Cutoutlayout_featured.jpg)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=46667)
+[Original GitHub repository](https://github.com/BrianaCamp/codrops-cutout-demo)
 
-[Demo](http://tympanus.net/Tutorials/CutoutCollageLayout/)
+[Original article on Codrops](https://tympanus.net/codrops/?p=46667)
 
-## Credits
+[Original demo](http://tympanus.net/Tutorials/CutoutCollageLayout/)
 
-- Image from [Unsplash](https://unsplash.com/)
-- [RELLAX](https://github.com/dixonandmoe/rellax) by Dixon & Moe
-
+Image from [Unsplash](https://unsplash.com/)
