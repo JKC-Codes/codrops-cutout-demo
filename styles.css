@@ -179,9 +179,9 @@ img {
 .shard-6 {
 	grid-column: 4 / span 2;
   grid-row: 3 / 5;
-	clip-path: polygon(23% 13%, 84% 12%, 86% 34%, 80% 45%, 80% 76%, 26% 90%);
-	--b-pos-x: 1.5%;
-	--b-pos-y: -5%;
+	clip-path: polygon(17% 35%, 75% 35%, 76% 52%, 71% 64%, 71% 88%, 24% 96%);
+	--b-pos-x: 0.5%;
+	--b-pos-y: -2%;
 }
 
 .shard-7 {
