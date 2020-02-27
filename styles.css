@@ -16,10 +16,6 @@
   box-sizing: border-box;
 }
 
-sup {
-	line-height: 0;
-}
-
 html {
 	display: flex;
 	flex-direction: column;
