@@ -137,7 +137,7 @@ img {
 	position: absolute;
 	top: var(--b-pos-y);
 	left: calc(8.3% + var(--b-pos-x));
-	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/110238/codrops-portrait-bg.jpg");
+	background-image: url("woman-in-red-shirt.jpg");
 	background-size: 75%;
 	background-repeat: no-repeat;
 }
