@@ -44,7 +44,7 @@ header {
 	max-width: 50rem;
 }
 
-@media (min-height: 30rem) {
+@media (min-height: 24rem) {
 	header {
 		position: fixed;
 		top: 50%;
@@ -77,7 +77,7 @@ header ul {
 	width: 100%;
 }
 
-@media (max-height: 29.9375rem) {
+@media (max-height: 23.9375rem) { /* 24rem - 1px */
 	header ul {
 		align-items: start;
 	}
@@ -98,7 +98,7 @@ main {
 	max-width: 65rem;
 }
 
-@media (max-height: 29.9375rem) {
+@media (max-height: 23.9375rem) { /* 24rem - 1px */
 	main {
 		margin-top: 0;
 	}
