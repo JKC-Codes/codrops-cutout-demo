@@ -36,18 +36,27 @@ body {
 }
 
 header {
-	position: fixed;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
-	z-index: 1;
-	max-height: 60rem;
-	height: 100%;
-	padding: 1.25rem 0.25rem 1.25rem 0;
 	display:flex;
+	align-items: center;
 	justify-content: space-between;
-	writing-mode: vertical-rl;
-	line-height: 1;
+	margin: auto;
+	padding: 0 1rem 1rem;
+	max-width: 50rem;
+}
+
+@media (min-height: calc(30rem)) {
+	header {
+		position: fixed;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		z-index: 1;
+		max-height: 60rem;
+		height: 100%;
+		padding: 1.25rem 0.25rem 1.25rem 0;
+		writing-mode: vertical-rl;
+		line-height: 1;
+	}
 }
 
 header > * {
@@ -68,6 +77,12 @@ header ul {
 	width: 100%;
 }
 
+@media (max-height: calc(30rem - 1px)) {
+	header ul {
+		align-items: start;
+	}
+}
+
 header ul > li:not(:last-child) {
 	margin-bottom: 1rem;
 }
@@ -81,6 +96,12 @@ main {
 	position: relative;
 	margin: 5rem auto;
 	max-width: 65rem;
+}
+
+@media (max-height: calc(30rem - 1px)) {
+	main {
+		margin-top: 0;
+	}
 }
 
 h1 {
